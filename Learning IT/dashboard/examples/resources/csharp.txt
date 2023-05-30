@@ -1,0 +1,32 @@
+class Program
+    {
+        static int x = 100;
+        static double y = 67.43;
+
+        public static void mymethod()
+        {
+            Console.Write("\n The Value of is " + x);
+        }
+
+        public int mymethod1()
+        {
+            Console.Write("\n The Value of is " + x);
+
+            x=200;
+            return x;
+        }
+
+
+        static void Main(string[] args)
+        {
+            string myname = "RAJA";
+
+            Console.Write("\n Hi...This is my 1st C# Program");
+            Console.Write("\n VTA----Batticaloa");
+
+            mymethod();
+
+
+            Console.ReadLine();
+        }
+    }

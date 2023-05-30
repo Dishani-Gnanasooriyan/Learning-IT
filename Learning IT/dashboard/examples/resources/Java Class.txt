@@ -1,0 +1,95 @@
+Create java Class 
+
+Class Name : Mathclass
+
+package mathpack;
+public class Mathclass
+{
+public static void main (String []arug)
+{
+}
+public static void sin(double Perpendicular,double Hypotenuse,double Adjacenuse)
+{
+double sin1;
+sin1=Perpendicular/Hypotenuse;
+System.out.println("\t sinQ=Perpendicular/Hypotenuse");
+System.out.println();
+System.out.println("\t Your sin Number is : "+sin1);
+System.out.println();
+System.out.println();
+}
+
+public static void cos(double Perpendicular,double Hypotenuse,double Adjacenuse)
+{
+double cos1;
+cos1=Adjacenuse/Hypotenuse;
+System.out.println("\t cosQ= Adjacenuse /Hypotenuse");
+System.out.println();
+
+System.out.println("\t Your cos Number is : "+cos1);
+System.out.println();
+System.out.println();
+}
+
+
+public static void tan(double Perpendicular,double Hypotenuse,double Adjacenuse)
+{
+double tan1;
+tan1=Adjacenuse/Perpendicular;
+System.out.println("\t tanQ= Adjacenuse/Perpendicular");
+System.out.println();
+
+System.out.println("\t Your tan Number is : "+tan1);
+System.out.println();
+System.out.println();
+}
+
+public static void squ(int x)
+{
+double y;
+
+y=x*x;
+System.out.println("\t Your"+x+"th Square Number is : "+y);
+System.out.println();
+}
+public static void tri(int x)
+{
+double y;
+
+y=(x*(x+1))/2;
+System.out.println("\t Your "+x+"th triangle Number is : "+y);
+System.out.println();
+}
+
+}
+
+
+Class Calling Method Small program
+
+import mathpack.mathEX;
+import java.util.Scanner;
+public class mathtest
+{
+public static void main(String[]arug)
+{
+double x,y,z;
+int a,b;
+Scanner ob=new Scanner(System.in);
+System.out.print("\nEnter your Perpendicular\n");
+x=ob.nextInt();
+
+System.out.print("\nEnter your Hypotenuse\n");
+y=ob.nextInt();
+mathEX ab=new mathEX();
+   System.out.print("\nEnter your  Adjacenuse\n");
+z=ob.nextInt();
+  System.out.print("\nEnter your Number\n");
+a=ob.nextInt();
+   ab.sin(x,y,z);
+   ab.cos(x,y,z);
+   ab.tan (x,y,z);
+   ab.squ (a);
+   ab.tri(a);
+   }
+   }
+

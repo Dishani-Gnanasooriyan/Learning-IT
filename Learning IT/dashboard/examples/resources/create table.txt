@@ -1,0 +1,6 @@
+CREATE TABLE employee (
+empid varchar(4),
+fullname varchar(25),
+mid varchar(4),
+dob date
+);

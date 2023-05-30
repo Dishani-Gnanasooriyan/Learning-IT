@@ -1,0 +1,7 @@
+Inside the BODY element, heading elements H1 through H6 are generally used for major divisions of the document. 
+
+
+Headings are permitted to appear in any order, but you will obtain the best results when your documents are displayed in a browser if you follow these guidelines:
+
+
+H1: should be used as the highest level of heading, H2 as the next highest.

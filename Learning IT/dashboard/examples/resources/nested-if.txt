@@ -1,0 +1,23 @@
+using System;
+
+namespace MyApplication
+{
+  class Program
+  {
+    static void Main(string[] args)
+    {
+      int a = 6;
+        if (a < 0)
+        {
+           Console.WriteLine("a is negative.");
+        }
+        else
+        {
+           if (a == 0)
+              Console.WriteLine("a is 0.");
+           else
+              Console.WriteLine("a us positive.");
+        }
+    }
+  }
+}

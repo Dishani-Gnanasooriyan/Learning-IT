@@ -1,0 +1,25 @@
+ $img= $_FILES['imgfile']['name'];
+    $src= $_FILES['txtfile']['name'];
+    $mid=$_POST['mid'];
+    $cat=$_POST['cat'];
+    $notes=$_POST['mnote'];
+    $catid=substr($mid,0);   
+    $catidx=$catid.$cat;
+    
+
+
+    //$sql2="insert into details(mid,mtitle,mdesc,mimage) values('86000','learn python','develop python','m1.jpg')";
+    //mysqli_query($con,$sql2)
+    $sql="insert into notes(mid,cat,catid) values('$mid','$cat','$catidx')";
+   // $res= ;
+   
+    //$res=mysqli_query($con,$sql);
+    if(mysqli_query($con,$sql)){
+       move_uploaded_file($_FILES['imgfile']['tmp_name'],"pictures/$img");
+       move_uploaded_file($_FILES['txtfile']['tmp_name'],"resources/$src");
+       $sql2="insert into resources(catid,srcfile,srcimage,notes) values('$catidx','$src','$img','$notes')";
+
+
+// echo"<script>window.location.href='addnotes.php?catid=<?php echo $catid ?>&amp;det=<?php echo $name?>&amp;ids=<?php echo $ids?>';</script>";
+                            
+#cb3379

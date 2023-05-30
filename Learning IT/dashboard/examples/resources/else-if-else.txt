@@ -1,0 +1,37 @@
+public class else_if_else
+{
+ public static void main(String arug [])
+  {
+  double Unit,Qty,Netsalary,Discount,Total;
+  Unit=1250.50;
+  Qty=12; 
+  Total =Unit*Qty;
+ 
+  Netsalary=Total-Discount;
+  
+  if(Total>=40000)
+  {
+   Discount= Total *5/100;
+   }
+   
+  else if (Total<20000)
+  {
+   Discount=Tot*2/100;
+  }
+  else if (Total<30000)
+  {
+  Discount = Total *3/100;
+  }
+  else
+  {
+   Discount = Total *4/100;
+  }
+ 
+    System.out.println("\nYour Discount is :- "+Discount);
+ 
+ 
+  
+   }
+  }
+
+

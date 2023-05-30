@@ -1,0 +1,21 @@
+public class Grade
+{
+  public static void main(String arug [])
+  {
+  double Grade;
+  
+  Grade=80;
+  
+ if (Grade >60)
+ 
+  {
+    System.out.println("Congraulations");
+   System.out.println("You have got more then 60");
+    System.out.println("so......You Are Pass");
+  
+  }
+   System.out.println("You Are Fail");
+
+   }
+  }
+

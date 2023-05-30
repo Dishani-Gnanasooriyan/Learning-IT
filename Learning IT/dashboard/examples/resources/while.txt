@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<?php  
+$l = 1;
+ 
+while($l <= 5) {
+  echo "The number is: $l <br>";
+  $l++;
+} 
+?>  
+
+</body>
+</html>

@@ -1,0 +1,16 @@
+using System;
+
+namespace MyApplication
+{
+  class Program
+  {
+    static void Main(string[] args)
+    {
+      string[] fruits = {"Apple", "Grapes", "Orange", "Banana"};
+      for (int i = 0; i < fruits.Length; i++) 
+      {
+        Console.WriteLine(fruits[i]);
+      }
+    }
+  }
+}

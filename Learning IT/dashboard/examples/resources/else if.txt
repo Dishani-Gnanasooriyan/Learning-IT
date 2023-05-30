@@ -1,0 +1,27 @@
+public class Grade2
+{
+  public static void main(String arug [])
+  {
+  double M1,M2,M3,Total,Average;
+  String Result;
+  M1=80;
+  M2=90;
+  M3=65;
+  Total=M1+M2+M3;
+  Average=Total/3;
+  
+ if (Average>60)
+ 
+  {
+    Result="Pass";
+  
+  }
+ 
+ else
+  {
+  Result="Fail";
+  
+  }
+  System.out.println("\nYour Result is :- "+Result); 
+   }
+  }

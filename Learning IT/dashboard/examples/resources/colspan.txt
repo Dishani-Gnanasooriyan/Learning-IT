@@ -1,0 +1,40 @@
+<html>
+<head> </head>
+<title> Table Colspan</title>
+<body>
+<h2 align="center"> Table Colspan</h2>
+<table border="1" bgcolor="ebcf6e" align="center" width="50%">
+	<tr bgcolor="b8f1eb" align="center">
+			<th>Name</th>
+			<th> Address</th>
+			<th colspan="2">Telephone</th>
+			
+	</tr>
+
+	<tr align="center">
+			<td>Raja</td>
+			<td> Batticaloa</td>
+			<td>0773457689</td>
+			<td>raja@gmail.com</td>
+	</tr>
+
+</table>
+<br><br>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,8 @@
+﻿<html>
+<head>
+</head>
+<title> Background color </title>
+<body bgcolor=“532592” text=“fff4f4” >
+Learning Information Technology
+</body>
+</html>
